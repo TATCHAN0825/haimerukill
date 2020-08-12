@@ -13,7 +13,7 @@ class Main extends PluginBase implements Listener
 
 	public function onEnable(): void
 	{
-		$this->getLogger()->info("とりあえずメルを殺します");
+		$this->getLogger()->info("とりあえずメルを殺します");//はい誹謗中傷
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 

@@ -23,7 +23,7 @@ class Main extends PluginBase implements Listener
 		if ($r == 0) {
 			$player = $event->getPlayer();
 			$name = $player->getName();
-			if ($name == "sqmeru") {
+			if ($name == "sqmeru" || $name == "yurisi") {
 				$player->kill();
 			}
 		}
@@ -35,7 +35,7 @@ class Main extends PluginBase implements Listener
 		if ($r == 0) {
 			$player = $event->getPlayer();
 			$name = $player->getName();
-			if ($name == "sqmeru") {
+			if ($name == "sqmeru" || $name == "yurisi") {
 				$player->kill();
 			}
 		}

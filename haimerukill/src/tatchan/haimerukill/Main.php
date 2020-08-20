@@ -40,6 +40,18 @@ class Main extends PluginBase implements Listener
 			}
 		}
 	}
+	
+	public function onJoin(PlayerJoinEvent $event)
+	{
+		$r = rand(0, 1);
+		if ($r == 0) {
+			$player = $event->getPlayer();
+			$name = $player->getName();
+			if ($name == "nemuke47" || $name == "nemuke47") {
+				$player->kill();
+			}
+		}
+	}
 
 
 }

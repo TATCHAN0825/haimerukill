@@ -14,6 +14,7 @@ class Main extends PluginBase implements Listener
 	public function onEnable(): void
 	{
 		$this->getLogger()->info("とりあえずメルを殺します");
+		$this->getLogger()->info("ねむけとゆりしーもリスキルします");
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 

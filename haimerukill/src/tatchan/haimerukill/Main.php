@@ -19,39 +19,19 @@ class Main extends PluginBase implements Listener
 
 	public function onRespawn(PlayerRespawnEvent $event)
 	{
-		$r = rand(0, 1);
-		if ($r == 0) {
-			$player = $event->getPlayer();
-			$name = $player->getName();
-			if ($name == "sqmeru" || $name == "yurisi") {
-				$player->kill();
-			}
+		$player = $event->getPlayer();
+		$name = $player->getName();
+		if ($name == "sqmeru" || $name == "yurisi"　|| $name == "Nemuke47") {
+			$player->kill();
 		}
 	}
 
-	public function onJoin(PlayerJoinEvent $event)
+	public function onJoin(PlayerJoinEvent $event)//めるさんは関数onJoinを二個作ったらしいですｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ
 	{
-		$r = rand(0, 1);
-		if ($r == 0) {
-			$player = $event->getPlayer();
-			$name = $player->getName();
-			if ($name == "sqmeru" || $name == "yurisi") {
-				$player->kill();
-			}
+		$player = $event->getPlayer();
+		$name = $player->getName();
+		if ($name == "sqmeru" || $name == "yurisi"　|| $name == "Nemuke47") {
+			$player->kill();
 		}
 	}
-	
-	public function onJoin(PlayerJoinEvent $event)
-	{
-		$r = rand(0, 1);
-		if ($r == 0) {
-			$player = $event->getPlayer();
-			$name = $player->getName();
-			if ($name == "nemuke47" || $name == "nemuke47") {
-				$player->kill();
-			}
-		}
-	}
-
-
 }

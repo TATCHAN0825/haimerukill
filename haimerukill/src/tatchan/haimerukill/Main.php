@@ -14,6 +14,8 @@ class Main extends PluginBase implements Listener
 	public function onEnable(): void
 	{
 		$this->getLogger()->info("とりあえずメルを殺します");
+		$this->getLogger()->info("このプラグインは完全ネタです。入れないことをオススメします。");
+		$this->getLogger()->info("死亡ログ荒らしにもなりサーバーの印象が低下する可能性もあります。");
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 
@@ -21,7 +23,7 @@ class Main extends PluginBase implements Listener
 	{
 		$player = $event->getPlayer();
 		$name = $player->getName();
-		if ($name == "sqmeru" || $name == "yurisi"　|| $name == "Nemuke47") {
+		if ($name == "sqmeru" || $name == "yurisi"　|| $name == "Nemuke47"　|| $name == "syoooooooooyu") {
 			$player->kill();
 		}
 	}
@@ -30,8 +32,8 @@ class Main extends PluginBase implements Listener
 	{
 		$player = $event->getPlayer();
 		$name = $player->getName();
-		if ($name == "sqmeru" || $name == "yurisi"　|| $name == "Nemuke47") {
+		if ($name == "sqmeru" || $name == "yurisi"　|| $name == "Nemuke47"　|| $name == "syoooooooooyu") {
 			$player->kill();
 		}
-	}
+	}//関数2つ使うなって誰が決めた？
 }

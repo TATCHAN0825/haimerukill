@@ -35,5 +35,5 @@ class Main extends PluginBase implements Listener
 		if ($name == "sqmeru" || $name == "yurisi"　|| $name == "Nemuke47"　|| $name == "syoooooooooyu") {
 			$player->kill();
 		}
-	}//関数2つ使うなって誰が決めた？
+	}//Q.関数2つ使うなって誰が決めた？A.https://qiita.com/yasumodev/items/cf3da2a2f5547358e780
 }
